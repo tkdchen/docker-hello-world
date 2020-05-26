@@ -1,7 +1,7 @@
 FROM fedora:32
 
-LABEL com.redhat.component="container-hello-world" \
-      name="tkdchen/container-hello-world" \
+LABEL com.redhat.component="docker-hello-world" \
+      name="tkdchen/docker-hello-world" \
       version="0.1"
 
 ENV GREETING="Hello there."
